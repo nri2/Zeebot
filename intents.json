@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["how old are you", "when were you made", "what is your age"],
+         "responses": ["I was made in 2023!"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "do you have a name", "tell me your name"],
+         "responses": ["Zeebot!"],
+         "context": [""]
+        },
+        {"tag": "dumb",
+         "patterns": ["your dumb", "you are a dumb robot", "you are so dumb", "your a dumb robot"],
+         "responses": ["I know! I learn new things every day!"],
+         "context": [""]
+        }
+    ]
+ }
